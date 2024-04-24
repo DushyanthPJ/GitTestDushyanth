@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Provider]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Data Provider_Test(failed)">
+    <classes>
+      <class name="loanApplication.Login_DataProvider">
+        <methods>
+          <include name="CarLoanAPILogin"/>
+        </methods>
+      </class> <!-- loanApplication.Login_DataProvider -->
+    </classes>
+  </test> <!-- Data Provider_Test(failed) -->
+</suite> <!-- Failed suite [Data Provider] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+	<test thread-count="5" name="Car Loan Smoke Test">
+		<groups>
+			<run>
+				<include name="Smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="loanApplication.HomeLoan" />
+			<class name="loanApplication.Groups" />
+			<class name="loanApplication.CarLoan" />
+			<class name="loanApplication.AnnotationsTestNG" />
+			<class name="loanApplication.PersonalLoan" />
+		</classes>
+	</test> <!-- Car Loan Smoke Test -->
+</suite> <!-- Smoke Test Suite -->

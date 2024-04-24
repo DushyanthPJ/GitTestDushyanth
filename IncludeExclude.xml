@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Include and Exxclude Suite">
+	<test thread-count="5" name="Include and Exclude Tests">
+		<classes>
+
+			<class name="loanApplication.CarLoan">
+				<methods>
+					<include name="CarLoanAPILogin"></include>
+				</methods>
+			</class>
+
+			<class name="loanApplication.PersonalLoan">
+				<methods>
+					<exclude name="PersonalLoanMobileLogin"></exclude>
+				</methods>
+			</class>
+
+			<class name="loanApplication.HomeLoan">
+				<methods>
+					<exclude name="Home.*"></exclude>
+				</methods>
+			</class>
+
+
+		</classes>
+	</test> <!-- Include and Exclude Tests -->
+</suite> <!-- Include and Exxclude Suite -->

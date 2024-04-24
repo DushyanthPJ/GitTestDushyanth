@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T16:45:39 IST" name="Data Provider" finished-at="2022-03-21T16:45:39 IST" duration-ms="96">
+    <groups>
+    </groups>
+    <test started-at="2022-03-21T16:45:39 IST" name="Data Provider_Test" finished-at="2022-03-21T16:45:39 IST" duration-ms="96">
+      <class name="loanApplication.Login_DataProvider">
+        <test-method signature="CarLoanAPILogin(java.lang.String,java.lang.String)[pri:0, instance:loanApplication.Login_DataProvider@d6e7bab]" started-at="2022-03-21T16:45:39 IST" name="CarLoanAPILogin" data-provider="credentialsDataSet" finished-at="2022-03-21T16:45:39 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanAPILogin -->
+        <test-method signature="CarLoanAPILogin(java.lang.String,java.lang.String)[pri:0, instance:loanApplication.Login_DataProvider@d6e7bab]" started-at="2022-03-21T16:45:39 IST" name="CarLoanAPILogin" data-provider="credentialsDataSet" finished-at="2022-03-21T16:45:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanAPILogin -->
+        <test-method signature="CarLoanAPILogin(java.lang.String,java.lang.String)[pri:0, instance:loanApplication.Login_DataProvider@d6e7bab]" started-at="2022-03-21T16:45:39 IST" name="CarLoanAPILogin" data-provider="credentialsDataSet" finished-at="2022-03-21T16:45:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanAPILogin -->
+        <test-method signature="CarLoanMobileLogin()[pri:0, instance:loanApplication.Login_DataProvider@d6e7bab]" started-at="2022-03-21T16:45:39 IST" name="CarLoanMobileLogin" finished-at="2022-03-21T16:45:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanMobileLogin -->
+        <test-method signature="CarLoanWebLogin()[pri:0, instance:loanApplication.Login_DataProvider@d6e7bab]" started-at="2022-03-21T16:45:39 IST" name="CarLoanWebLogin" finished-at="2022-03-21T16:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanWebLogin -->
+      </class> <!-- loanApplication.Login_DataProvider -->
+    </test> <!-- Data Provider_Test -->
+  </suite> <!-- Data Provider -->
+</testng-results>
